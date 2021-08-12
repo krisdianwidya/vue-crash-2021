@@ -3,7 +3,7 @@
     <Header
       @toggle-add-task="toggleAddTask"
       title="Task Tracker"
-      :buttonText="showAddTask"
+      :showAddTask="showAddTask"
     />
     <div v-show="showAddTask">
       <AddTask @add-task="addTask" />
